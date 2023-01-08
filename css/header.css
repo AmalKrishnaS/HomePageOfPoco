@@ -1,0 +1,150 @@
+.header-box {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    box-shadow:inset 10px 50px 15px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+.logo-poco {
+    width: 116px;
+    position: absolute;
+    top: 20px;
+}
+
+.series-container {
+  position: absolute;
+  top: 70px;
+  width: 100%;
+  font-size: 16px;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-color: white;
+}
+
+.series-names {
+    height: 60px;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.xseries-button, 
+.cseries-button, 
+.mseries-button, 
+.fseries-button {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  border: 0px;
+  cursor: pointer;
+}
+
+
+.xseries-button:hover,
+.cseries-button:hover, 
+.mseries-button:hover,
+.fseries-button:hover  {
+  background-color: rgb(30, 30, 30);
+}
+
+.x-button,
+.c-button,
+.m-button,
+.f-button  {
+  position: relative;
+}
+
+ .model-x{
+  position: absolute;
+  bottom: -36px;
+  left: 0px;
+  background-color: rgb(30, 30, 30);
+  padding-left: 20px;
+  padding-right: 30px;
+  white-space: nowrap;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border: 0px;
+  opacity: 0;
+  pointer-events: none;
+ }
+ .model-m{
+  position: absolute;
+  bottom: -36px;
+  left: 0px;
+  background-color: rgb(30, 30, 30);
+  padding-left: 20px;
+  padding-right: 55px;
+  white-space: nowrap;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border: 0px;
+  opacity: 0;
+  pointer-events: none;
+ }
+ .model-c{
+  position: absolute;
+  bottom: -36px;
+  left: 0px;
+  background-color: rgb(30, 30, 30);
+  padding-left: 30px;
+  padding-right: 55px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  white-space: nowrap;
+  border: 0px;
+  opacity: 0;
+  pointer-events: none;
+ }
+ .model-f{
+  position: absolute;
+  bottom: -36px;
+  left: 0px;
+  background-color: rgb(30, 30, 30);
+  padding-left: 20px;
+  padding-right: 50px;
+  white-space: nowrap;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border: 0px;
+  opacity: 0;
+  pointer-events: none;
+ }
+
+.x-button:hover .model-x,
+.m-button:hover .model-m,
+.c-button:hover .model-c,
+.f-button:hover .model-f{
+  opacity: 1;
+  color: white;
+}
+
+.poco-community-text-container {
+  position: absolute;
+  right: 30px;
+  top: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.community-link {
+  text-decoration: none;
+  color: white;
+
+}

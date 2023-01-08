@@ -1,0 +1,120 @@
+
+.footer{
+  height: 520px;
+  position: relative;
+  background-color: rgb(30, 30, 30);
+}
+
+.follow-poco {
+  position: absolute;
+  top: 50px;
+  left: 420px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+}
+
+.chat-support {
+  position: absolute;
+  top: 150px;
+  left: 290px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: rgb(224, 169, 29);
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 14px;
+  padding-top: 14px;
+}
+
+.contact-number {
+  position: absolute;
+  top: 280px;
+  left: 440px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 22px;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.gmail {
+  position: absolute;
+  top: 318px;
+  left: 453px;
+  font-size: 14px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  opacity: 0.8;
+}
+.service-centre {
+  position: absolute;
+  top: 345px;
+  left: 453px;
+  font-size: 14px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  opacity: 0.8;
+}
+.spare-list {
+  position: absolute;
+  top: 372px;
+  left: 474px;
+  font-size: 14px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  opacity: 0.8;
+}
+.opening-time {
+  position: absolute;
+  top: 399px;
+  left: 435px;
+  font-size: 14px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  opacity: 0.8;
+}
+.about-us {
+  position: absolute;
+  top: 426px;
+  left: 490px;
+  font-size: 14px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  opacity: 0.8;
+}
+.warranty {
+  position: absolute;
+  top: 453px;
+  left: 490px;
+  font-size: 14px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.footer2 {
+  position: absolute;
+  bottom: 8px;
+  left: 90px;
+  color: white;
+  font-size: 11px;
+  font-weight: 300;
+  opacity: 0.8;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(103, 100, 100);
+  padding-left: 300px;
+  padding-right: 300px;
+  white-space: nowrap;
+  padding-top: 15px;
+}
